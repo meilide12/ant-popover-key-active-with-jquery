@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ant-layout-footer {
+  background-color: #001529;
+}
+.flex {
+  display: flex;
+}
+
+.ant-layout-header {
+  padding: 0 20px;
+}
+
+.header-button-content {
+  padding: 0 20px;
+  justify-content: flex-end;
+}
+
+.header-button-content > .item > button {
+  margin-left: 20px;
+}
+
+.menu .item {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  border-right: 1px solid rgb(209, 209, 209);
+  text-align: center;
+  justify-content: center;
+}
+
+.menu .item a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: black;
+}
+
+button:hover,button:focus {
+  background-color: rgb(255, 187, 86) !important;
+  border-color: rgb(255, 153, 0) !important;
+}
+
+button:hover,button:focus span {
+  color: white !important;
+}
+
+.menu .item a:hover,.menu .item a:focus {
+  background-color: rgb(255, 187, 86);
+  color: white;
+}
+
+.menu-popover-row {
+  display: flex;
+}
+
+.header-popover-div {
+  width: 100px;
+  height: 40px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-popover-row div {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-popover-div:hover,.menu-popover-row div:hover {
+  background-color: rgb(109, 160, 255);
+  color: white;
+  border-radius: 5px;
+}
+
+.item.active {
+  background-color: rgb(109, 160, 255);
+  color: white;
+  border-radius: 5px;
+}
+
+.popover-focus {
+  background-color: rgb(109, 160, 255);
+  color: white;
+  border-radius: 5px;
+}
+
+.content-inner-div {
+  width: 100%;height: 4000px;
+}
